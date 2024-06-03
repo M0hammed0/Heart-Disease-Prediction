@@ -1,1 +1,1 @@
-#kalp hastaligi tahnin
+#kalp hastaligi tahmin
