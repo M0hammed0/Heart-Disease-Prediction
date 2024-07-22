@@ -7,7 +7,7 @@ import pickle
 
 app = Flask(__name__)
 
-model = pickle.load(open('models/model0.pkl', 'rb'))
+model = pickle.load(open('model0.pkl', 'rb'))
 data = pd.read_csv("Heart Disease dataset.csv")
 features=data.drop(["target"],axis=1)
 col_names = list(features.columns)
